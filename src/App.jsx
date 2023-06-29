@@ -1,9 +1,11 @@
 import { useState } from 'react'
+import ButtonAppBar from './components/ButtonAppBar'
 
 function App() {
 
   return (
     <>
+      <ButtonAppBar />
       <h1>TenStack Query</h1>
     </>
   )
